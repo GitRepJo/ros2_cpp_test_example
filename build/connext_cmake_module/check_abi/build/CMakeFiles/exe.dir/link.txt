@@ -1,0 +1,1 @@
+/bin/x86_64-linux-gnu-g++-9    -rdynamic CMakeFiles/exe.dir/check_abi.cpp.o  -o exe   -L/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0  -Wl,-rpath,/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0 -Wl,--no-as-needed -lnddsc -lnddscore -lnddscpp -lrticonnextmsgcpp -lpthread -ldl -Wl,--as-needed 

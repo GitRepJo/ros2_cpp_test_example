@@ -1,0 +1,6 @@
+[0.000000] (-) TimerEvent: {}
+[0.000495] (ros2_cpp_test_example) JobQueued: {'identifier': 'ros2_cpp_test_example', 'dependencies': OrderedDict([('ros2_cpp_test_example', '/home/jo/dev_ws/src/ros2_cpp_test_example/install/ros2_cpp_test_example')])}
+[0.000654] (ros2_cpp_test_example) JobStarted: {'identifier': 'ros2_cpp_test_example'}
+[0.001599] (ros2_cpp_test_example) StderrLine: {'line': b'Traceback (most recent call last):\n  File "/usr/lib/python3/dist-packages/colcon_core/executor/__init__.py", line 91, in __call__\n    rc = await self.task(*args, **kwargs)\n  File "/usr/lib/python3/dist-packages/colcon_core/task/__init__.py", line 93, in __call__\n    return await task_method(*args, **kwargs)\n  File "/usr/lib/python3/dist-packages/colcon_ros/task/ament_cmake/test.py", line 29, in test\n    return await extension.test()\n  File "/usr/lib/python3/dist-packages/colcon_cmake/task/cmake/test.py", line 45, in test\n    assert os.path.exists(args.build_base), \\\nAssertionError: Has this package been built before?\n'}
+[0.002365] (ros2_cpp_test_example) JobEnded: {'identifier': 'ros2_cpp_test_example', 'rc': 1}
+[0.012523] (-) EventReactorShutdown: {}

@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/jo/dev_ws/src/ros2_cpp_test_example/build",
+  "command": "/bin/x86_64-linux-gnu-g++-9  -DDEFAULT_RMW_IMPLEMENTATION=rmw_fastrtps_cpp -DRCUTILS_ENABLE_FAULT_INJECTION -DSPDLOG_COMPILED_LIB -isystem /opt/ros/foxy/include  -g   -Wall -Wextra -Wpedantic -std=gnu++14 -o CMakeFiles/sub_pub.dir/src/sub_pub.cpp.o -c /home/jo/dev_ws/src/ros2_cpp_test_example/src/sub_pub.cpp",
+  "file": "/home/jo/dev_ws/src/ros2_cpp_test_example/src/sub_pub.cpp"
+}
+]

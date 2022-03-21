@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='utf-8'?>
+<testsuites name="ros2_cpp_test_example.sub_pub_launch_testing" tests="1" failures="0" errors="0" time="1.07"><testsuite name="ros2_cpp_test_example.sub_pub_launch_testing.launch_tests" tests="1" failures="0" errors="0" skipped="0" time="1.07"><testcase classname="ros2_cpp_test_example.TestProcessOutput" name="test_dut_output" time="1.07" /></testsuite></testsuites>

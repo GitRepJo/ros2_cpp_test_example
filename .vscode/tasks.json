@@ -1,0 +1,17 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "build",
+            "group": "build",
+            "type": "shell",
+            "command": "cd /home/$USER/dev_ws && colcon build --packages-select ros2_cpp_test_example --cmake-args '-DCMAKE_BUILD_TYPE=Debug'"
+        },
+        {
+            "label": "test",
+            "group": "test",
+            "type": "shell",
+            "command": "cd /home/$USER/dev_ws && colcon test --packages-select ros2_cpp_test_example"
+        }
+    ]
+}
