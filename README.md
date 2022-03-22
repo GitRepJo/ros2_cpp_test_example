@@ -3,6 +3,7 @@
 This is an example to test a subscriber/publisher node (dut device under test) with the launch_test command.    
 A test node is set up and publishes a message to the dut that is defined in a .yaml file.    
 The test node then receives the answer and compares it to the expected data, which is also defined in a .yaml file.    
+For more information see https://github.com/ros2/launch_ros.
 
 ## Create a cpp package with a ros2 publisher/subscriber node.
 
