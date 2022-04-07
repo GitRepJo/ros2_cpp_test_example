@@ -3,6 +3,7 @@
 This is an example to test a subscriber/publisher node (dut device under test) with the launch_test command.    
 A test node is set up and publishes a message to the dut that is defined in a .yaml file.    
 The test node then receives the answer and compares it to the expected data, which is also defined in a .yaml file.    
+For more information see https://github.com/ros2/launch_ros.
 
 To use this example with python code, add python to package.xml and CMakeList.txt.
 Details can be found on: https://roboticsbackend.com/ros2-package-for-both-python-and-cpp-nodes/
