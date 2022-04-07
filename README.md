@@ -5,8 +5,8 @@ A test node is set up and publishes a message to the dut that is defined in a .y
 The test node then receives the answer and compares it to the expected data, which is also defined in a .yaml file.    
 For more information see https://github.com/ros2/launch_ros.
 
-To use this example with python code, add python to package.xml and CMakeList.txt.
-Details can be found on: https://roboticsbackend.com/ros2-package-for-both-python-and-cpp-nodes/
+To use this example with python code, add python to package.xml and CMakeList.txt.    
+Details can be found on: https://roboticsbackend.com/ros2-package-for-both-python-and-cpp-nodes/    
 Note that keeping a c++ node to build the package is required even when only python nodes are used.     
 
 ## Create a cpp package with a ros2 publisher/subscriber node.
