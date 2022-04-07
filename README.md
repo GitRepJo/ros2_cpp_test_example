@@ -4,6 +4,10 @@ This is an example to test a subscriber/publisher node (dut device under test) w
 A test node is set up and publishes a message to the dut that is defined in a .yaml file.    
 The test node then receives the answer and compares it to the expected data, which is also defined in a .yaml file.    
 
+To use this example with python code, add python to package.xml and CMakeList.txt.
+Details can be found on: https://roboticsbackend.com/ros2-package-for-both-python-and-cpp-nodes/
+Note that keeping a c++ node to build the package is required even when only python nodes are used.     
+
 ## Create a cpp package with a ros2 publisher/subscriber node.
 
 Create a cpp package in your working directory:
